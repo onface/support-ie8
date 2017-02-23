@@ -15,7 +15,10 @@
 ### 禁用崩溃重启
 ![image](https://cloud.githubusercontent.com/assets/3949015/23246659/3da388ca-f9d0-11e6-9b09-e8d571cd8308.png)
 
-## 找到调试工具
+### 找到调试工具
 
 ![image](https://cloud.githubusercontent.com/assets/3949015/23251177/3e85c96c-f9e7-11e6-8b2c-7eb1028fe4d6.png)
 
+### 普通刷新清除不了IE缓存
+
+![image](https://cloud.githubusercontent.com/assets/3949015/23251406/223b18a6-f9e8-11e6-8f2e-1ff475118ad6.png)
