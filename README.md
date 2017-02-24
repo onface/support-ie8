@@ -8,7 +8,7 @@
 - 使用 `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
 - `babel-presets-es2015` 设置 `loose:true` `presets: [["es2015", { "loose": true }]]` 可避免出现 `Object.defineProperty`
 - 使用 `Redux 3` Redux 4 不再支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
-- 使用 `react-reudx@4.0.4` https://github.com/reactjs/react-redux/issues/227
+- 不要使用 `react-redux@4.0.1~4.0.3` https://github.com/reactjs/react-redux/issues/227
 
 ## IE Debug
 
