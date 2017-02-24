@@ -5,7 +5,8 @@
 - [react-ie8](https://github.com/xcatliu/react-ie8)
 - [uglify2](https://github.com/mishoo/UglifyJS2)@2.7.0+ `screw-ie8` 需要设置为 `false`，这是个不兼容的修改，但是 Uglify2 作者并没有更版本
 - 不要使用 [enzyme](https://github.com/airbnb/enzyme)
-
+- 使用 `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
+- `babel-presets-es2015` 设置 `loose:true` `presets: [["es2015", { "loose": true }]]` 可避免出现 `Object.defineProperty`
 
 ## IE Debug
 
