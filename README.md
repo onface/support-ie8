@@ -3,12 +3,14 @@
 - 使用 `webpack@1.13.2` https://github.com/SamHwang1990/blog/issues/6
 - 使用 `karma@1.3.0` https://github.com/karma-runner/karma/issues/2556
 - [react-ie8](https://github.com/xcatliu/react-ie8)
-- [uglify2](https://github.com/mishoo/UglifyJS2)@2.7.0+ `screw-ie8` 需要设置为 `false`，这是个不兼容的修改，但是 Uglify2 作者并没有更版本
-- 不要使用 [enzyme](https://github.com/airbnb/enzyme)
+- [uglify2](https://github.com/mishoo/UglifyJS2)@2.7.0+ `screw-ie8` 需要设置为 `false`。
 - 使用 `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
 - `babel-presets-es2015` 设置 `loose:true` `presets: [["es2015", { "loose": true }]]` 可避免出现 `Object.defineProperty`
-- 使用 `Redux 3` Redux 4 不再支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
+- 使用 `Redux 3`  Redux 4 不支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
+
+- 不要使用 [enzyme](https://github.com/airbnb/enzyme)
 - 不要使用 `react-redux@4.0.1~4.0.3` https://github.com/reactjs/react-redux/issues/227
+- 不要使用 `redux-saga` https://github.com/redux-saga/redux-saga/issues/313
 
 ## IE Debug
 
