@@ -24,7 +24,7 @@
 
 ## 构建工具兼容配置
 
-- :information_source:  `[uglify2](https://github.com/mishoo/UglifyJS2)@2.7.0`之后的版本 `screw-ie8` 需要设置为 `false`。
+- :information_source:  `uglify@2.7.0`之后的版本 `screw-ie8` 需要设置为 `false`。
 - :information_source:  `babel-presets-es2015` 设置 `loose:true` 可避免出现 `Object.defineProperty`   `"presets": [ ["es2015", { "loose": true }] ]`
 
 
@@ -40,7 +40,7 @@
 
 ## 不要使用的第三包
 
-- :warning: [enzyme](https://github.com/airbnb/enzyme)
+- :warning: `enzyme`
 - :warning: `redux-saga` https://github.com/redux-saga/redux-saga/issues/313
 
 ## IE Debug
