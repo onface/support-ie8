@@ -15,12 +15,12 @@
 
     <!-- es6-shim es6-shim/es6-sham-->
     <!--[if lte IE 11]>
-    <script src="/polyfill-lt-ie11.js"></script>
+    <script src="/polyfill-lte-ie11.js"></script>
     <![endif]-->
 ```
 
-[polyfill-lt-ie10.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie10.js)
-[polyfill-lt-ie11.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie11.js)
+- [polyfill-lt-ie10.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie10.js)
+- [polyfill-lt-ie11.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lte-ie11.js)
 
 ## 其他资源
 
@@ -33,15 +33,15 @@
 
 ## 构建工具兼容配置
 
-- :information_source:  `uglify@2.7.0`之后的版本 `screw-ie8` 需要设置为 `false`。
-- :information_source:  `babel-presets-es2015` 设置 `loose:true` 可避免出现 `Object.defineProperty`   `"presets": [ ["es2015", { "loose": true }] ]`
+- :information_source:  `uglify@2.7.0`之后的版本 设置 `screw-ie8: false`
+- :information_source:  `babel-presets-es2015` 设置 `loose: true` ，避免出现 `Object.defineProperty` *`"presets": [ ["es2015", { "loose": true }] ]`*
 
 
 ## 使用特定版本的第三方包
 
-- :+1: `react@1.14.8` react@15.*.* 不兼容IE8
+- :+1: `react@1.14.8` `react@15.*.*` 不兼容IE8
 - :+1: `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
-- :+1: `redux@3.*.*`  redux 4 不支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
+- :+1: `redux@3.*.*`  `redux 4` 不支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
 
 ## 不要使用特定版本的第三方包
 
