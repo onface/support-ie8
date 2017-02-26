@@ -21,7 +21,6 @@
 
 - :+1: `webpack@1.13.2` https://github.com/SamHwang1990/blog/issues/6
 - :+1: `karma@1.3.0` https://github.com/karma-runner/karma/issues/2556
-- :+1: `react@1.14.8` react@15.*.* 不兼容IE8
 
 ## 构建工具兼容配置
 
@@ -31,8 +30,9 @@
 
 ## 使用特定版本的第三方包
 
-- :warning: `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
-- :warning: `redux@3.*.*`  redux 4 不支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
+- :+1: `react@1.14.8` react@15.*.* 不兼容IE8
+- :+1: `react-router@2.3.0` `2.3.0` 以上版本存在 `Object.defineProperty`
+- :+1: `redux@3.*.*`  redux 4 不支持IE8 [Redux 4 breaking changes](https://github.com/reactjs/redux/issues/1342)
 
 ## 不要使用特定版本的第三方包
 
