@@ -3,15 +3,24 @@
 
 ## polyfill
 
-在页面引入 polyfil 
+在页面引入 polyfil
 
 ```html
-<!--[if lt IE 10]>
-<script src="/polyfill-ie8.js"></script>
-<![endif]-->
+<!-- Polyfills -->
+
+    <!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
+    <!--[if lt IE 10]>
+    <script src="/polyfill-lt-ie10.js"></script>
+    <![endif]-->
+
+    <!-- es6-shim es6-shim/es6-sham-->
+    <!--[if lte IE 11]>
+    <script src="/polyfill-lt-ie11.js"></script>
+    <![endif]-->
 ```
 
-[polyfill-ie8.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-ie8.js)
+[polyfill-lt-ie10.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie10.js)
+[polyfill-lt-ie11.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie11.js)
 
 ## 其他资源
 
