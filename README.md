@@ -62,6 +62,8 @@
 
 ### 找到调试工具
 
+> 吐槽：有时调试工具会出现在屏幕外，导致无法找到。
+
 ![image](https://cloud.githubusercontent.com/assets/3949015/23251177/3e85c96c-f9e7-11e6-8b2c-7eb1028fe4d6.png)
 
 ### 普通刷新清除不了IE缓存
