@@ -57,6 +57,11 @@
 ### 禁用内存保护（IE8没有）
 ![image](https://cloud.githubusercontent.com/assets/3949015/23246656/305ce328-f9d0-11e6-868c-eb5c53698d80.png)
 
+`Advanced>Browser`
+
+![image](
+https://camo.githubusercontent.com/e8e3c8e73fca8d18c9aa65f0d7a200be04f99e88/687474703a2f2f70312e6270696d672e636f6d2f3536373537312f343832333137393566643235633730392e706e67)
+
 ### 禁用崩溃重启
 ![image](https://cloud.githubusercontent.com/assets/3949015/23246659/3da388ca-f9d0-11e6-9b09-e8d571cd8308.png)
 
