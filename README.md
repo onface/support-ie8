@@ -33,8 +33,9 @@
 
 ## 构建工具兼容配置
 
-- :information_source:  `uglify@2.7.0`之后的版本 设置 `screw-ie8: false` `compress: { warnings: false, screw_ie8: false }, mangle: { screw_ie8: false }, output: { screw_ie8: false }`
-- :information_source:  `babel-presets-es2015` 设置 `loose: true` ，避免出现 `Object.defineProperty` *`"presets": [ ["es2015", { "loose": true }] ]`*
+- :information_source: React hot reload 不支持IE8，本地开发阶段要测试IE8请取消热更新.
+- :information_source: `uglify@2.7.0`之后的版本 设置 `screw-ie8: false` `compress: { warnings: false, screw_ie8: false }, mangle: { screw_ie8: false }, output: { screw_ie8: false }`
+- :information_source: `babel-presets-es2015` 设置 `loose: true` ，避免出现 `Object.defineProperty` *`"presets": [ ["es2015", { "loose": true }] ]`*
 
 
 ## 使用特定版本的第三方包
