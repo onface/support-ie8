@@ -17,10 +17,12 @@
     <!--[if lte IE 11]>
     <script src="/polyfill-lte-ie11.js"></script>
     <![endif]-->
+    <script src="/es6-promise.auto.js"></script>
 ```
 
 - [polyfill-lt-ie10.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie10.js)
 - [polyfill-lt-ie11.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lte-ie11.js)
+- [es6-promise.auto.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/es6-promise.auto.js)
 
 ## 其他资源
 
