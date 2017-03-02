@@ -28,6 +28,10 @@
 
 - [react-ie8](https://github.com/xcatliu/react-ie8)
 
+## 使用特定的构建工具
+
+- :+1: 使用 `es3ify-loader` 或 `es3ify-webpack-plugin`
+
 ## 使用特定版本的构建工具
 
 - :+1: `webpack@1.13.2` https://github.com/SamHwang1990/blog/issues/6
