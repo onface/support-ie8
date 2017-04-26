@@ -30,7 +30,7 @@
 
 ## 使用特定的构建工具
 
-- :+1: 使用 `es3ify-loader` 或 `es3ify-webpack-plugin`
+- :+1: 使用 `es3ify-loader`
 
 ## 使用特定版本的构建工具
 
