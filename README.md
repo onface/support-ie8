@@ -52,12 +52,22 @@
 
 ## 不要使用特定版本的第三方包
 
+- :warning: `antd@2x`
 - :warning: `react-redux@4.0.1~4.0.3` https://github.com/reactjs/react-redux/issues/227
 
 ## 不要使用的第三包
 
 - :warning: `enzyme`
 - :warning: `redux-saga` https://github.com/redux-saga/redux-saga/issues/313
+
+## webpack 注意事项
+
+```
+// 不兼容IE8
+import { Tabs } from "antd"
+// 兼容IE8
+import Tabs from "antd/lib/tabs"
+```
 
 ## IE Debug
 
