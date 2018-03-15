@@ -6,23 +6,8 @@
 在页面引入 polyfil
 
 ```html
-<!-- Polyfills -->
-
-    <!-- console-polyfill es5-shim es5-shim/es5-sham es6-shim es6-shim/es6-sham html5shiv media-match -->
-    <!--[if lt IE 10]>
-    <script src="/polyfill-lt-ie10.js"></script>
-    <![endif]-->
-
-    <!-- es6-shim es6-shim/es6-sham-->
-    <!--[if lte IE 11]>
-    <script src="/polyfill-lte-ie11.js"></script>
-    <![endif]-->
-    <script src="/es6-promise.auto.js"></script>
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 ```
-
-- [polyfill-lt-ie10.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lt-ie10.js)
-- [polyfill-lt-ie11.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/polyfill-lte-ie11.js)
-- [es6-promise.auto.js](https://raw.githubusercontent.com/fast-flow/support-ie8/master/es6-promise.auto.js)
 
 ## 其他资源
 
